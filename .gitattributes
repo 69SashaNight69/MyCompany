@@ -1,0 +1,12 @@
+﻿# Normalize line endings for all text files to LF in the repository
+* text=auto
+
+# Force specific file types to always have LF (useful for scripts, code)
+*.sh text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+
+# Use CRLF for Windows-specific files (optional)
+*.bat text eol=crlf
+*.ps1 text eol=crlf
